@@ -6,7 +6,7 @@
 .col {
 	width:50%;
 	height:20em;
-	background-color:#EBECFC;	
+	/*background-color:#EBECFC;	*/
 	display:block;
 	float: left;
 	text-align: center;
@@ -16,13 +16,36 @@
 p {padding: 10px;}
 
 header	{
+	position: relative;
+	background: url("http://rampup.github.io/frontEnd/exercises/beans.jpg") no-repeat center top;
+	display: block;
+	width: 100%;
+	height: 280px;
+}		
 
-}			
+	img.logo {
+		display: block;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+
+	.container {
+		max-width: 1024px;
+		width: 100%;
+		height: 100%;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+	}
+
 	nav {
 		background-color: rgb(24,11,6);
 		color: #E3BE8A;
 		margin: 0px;
 		padding: 5px 0;
+		position: absolute;
+		width: 100%;
+		bottom: 25px;
 	}
 
 		ul {
@@ -44,7 +67,14 @@ section {
 footer {
 	text-align: center;
 	clear: both;
-	background-color: rgb(24,11,6);
 	color: #E3BE8A;
-	padding: 25PX;
+	
+}
+
+footer p {
+	padding: 25px 0; 
+}
+
+footer .container {
+	background-color: rgb(24,11,6); 
 }
