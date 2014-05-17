@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "LeagueGothic";
+}
+
+@font-face {
+	font-family: "LeagueGothic";
+	src: url(type);
+
+}
+
+a:link {color:black;text-decoration: none}
+a:hover {color:red;}
+a:visited {color:black;text-decoration: none}
+
+.container {
+	max-width: 1024px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+header {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid black;
+	vertical-align: bottom;
+}
+	
+	header h1 { 	
+	font-size: 3em;
+	float: left;
+	display: inline;
+	vertical-align: text-bottom;
+	}
+
+	header nav {
+		float:right;
+		display: inline;
+		text-align: right; 	
+		vertical-align: text-bottom;
+	}
+
+	header li {
+		display: inline;
+		vertical-align: text-bottom;
+	}
+
+#side_nav {
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+	#side_nav ul li {
+		margin-right: 25px;
+		display: block;
+		text-align: left;
+		font-weight: bold;
+	}
+
+#content_body {
+	display: block;
+	float: right;
+	width:70%;
+}
+	
+	.entry_date {
+		font-size: .9em;
+		font-weight: bold;	
+	}
+
+	.entry_title {
+		font-size: 1.5em;
+		padding-bottom: 2px;
+		text-transform:uppercase;
+		font-weight: bold;
+	}
+
+	.entry_content {
+		font-size: 1em;
+		padding-bottom: 20px;
+	}
+
+section {
+	/*margin: 30px auto;*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer {
+	clear: both;
+	text-align: left;
+	border-top: 2px solid black
+}
