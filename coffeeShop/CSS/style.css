@@ -5,12 +5,12 @@
 
 .col {
 	width:50%;
-	height:20em;
+	/*height:15em;*/
 	/*background-color:#EBECFC;	*/
 	display:block;
 	float: left;
 	text-align: center;
-	padding: 20px 0 ;
+	padding: 20px 0 5px 0 ;
 }
 
 p {padding: 10px;}
@@ -79,4 +79,31 @@ footer p {
 
 footer .container {
 	background-color: rgb(24,11,6); 
+}
+
+@media  all and (max-width: 931px) {
+
+	.col {
+		display: block;
+		width: 98%;
+	}
+
+@media only screen and  ( min-device-width: 320px) and (max-device-width: 568px) {
+	
+	header {
+		width: 98%;
+	}
+
+	section{
+		width: 320px;
+		height: auto;
+		margin: 0 2px 0 2px;
+		width: 98%;
+	}
+
+	footer{
+		height: auto;
+		width: 98%;
+	}
+
 }
